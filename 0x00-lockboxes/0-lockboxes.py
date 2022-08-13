@@ -3,12 +3,12 @@
 
 
 def canUnlockAll(boxes):
-	'''Function determines of all boxes can be opened'''
-	bufferList = [0]
+    '''Function determines of all boxes can be opened'''
+    bufferList = [0]
 
-	for idx1 in bufferList:
-		for idx2 in boxes[idx1]:
-			if idx2 not in bufferList and idx2 < len(boxes):
-				bufferList.append(idx2)
+    for idx1 in bufferList:
+        for idx2 in boxes[idx1]:
+            if idx2 not in bufferList and idx2 < len(boxes):
+                bufferList.append(idx2)
 
-	return len(bufferList) == len(boxes)
+    return len(bufferList) == len(boxes)

@@ -4,7 +4,7 @@
 
 def minOperations(n):
     '''
-    Function calculates the fewest bufferber of operations 
+    Function calculates the fewest bufferber of operations
     needed to result in exactly n 'H' characters in the file
     '''
     buffer = n
